@@ -1,0 +1,154 @@
+body{
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+
+
+  
+}
+
+
+/* Header **/
+header{
+	background:black;
+	color:#B9975B;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#B9975B 4px solid;
+	width: 100%;
+	
+}
+
+.logo-nazov{
+	float: right;
+	margin: auto;
+	padding-right: 30px;
+	
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #B9975B;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+footer{
+	background:black;
+	color:#B9975B;
+	min-height:70px;
+	border-top:#B9975B 4px solid;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	
+}
+
+.news{
+	width: 80%;
+	margin:auto;
+
+	
+	
+	
+
+}
+.news-img{
+	float: left;
+	padding-right: 20px;
+	
+	width: 30%;
+	height: 30%;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+	
+
+h1{
+	color: #B9975B;
+	font-size: 50px;
+}
+h2{
+	color: #B9975B;
+}
+
+.news-text{
+	
+    
+}
+
+
+.clearfix {
+    overflow: auto;
+    border-left: 10px solid #B9975B;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.a-news{
+	text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: auto;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+tr:nth-child(odd) {
+    background: #B9975B;
+}
+
+tr:nth-child(even) {
+    background: black;
+    color: white;
+}
+.table
+	{
+		width: 80%;
+		margin: auto;
+	}
